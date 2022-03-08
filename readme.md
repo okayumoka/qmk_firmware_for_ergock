@@ -1,3 +1,14 @@
+# ergock
+
+Setting Up QMK Environment: https://docs.qmk.fm/#/
+
+```
+# After install QMK MSYS.
+qmk clean -a
+qmk compile -kb ergock -km default
+qmk flash -kb ergock -km default
+```
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
